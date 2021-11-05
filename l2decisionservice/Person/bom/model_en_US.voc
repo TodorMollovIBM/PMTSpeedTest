@@ -1,0 +1,12 @@
+
+# PersonFirstName
+PersonFirstName#concept.label = PersonFirstName
+PersonFirstName.PersonFirstName(java.lang.String)#phrase.navigation = a new {PersonFirstName} where {0, FirstName}
+PersonFirstName.firstName#phrase.action = set the FirstName of {this} to {FirstName}
+PersonFirstName.firstName#phrase.navigation = {FirstName} of {this}
+
+# PersonFirstNameWithSpace
+PersonFirstNameWithSpace#concept.label = PersonFirstNameWithSpace
+PersonFirstNameWithSpace.PersonFirstNameWithSpace(java.lang.String)#phrase.navigation = a new {PersonFirstNameWithSpace} where {0, First Name}
+PersonFirstNameWithSpace.firstName#phrase.action = set the First Name of {this} to {First Name}
+PersonFirstNameWithSpace.firstName#phrase.navigation = {First Name} of {this}

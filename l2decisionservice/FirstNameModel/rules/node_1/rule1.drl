@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>rule1</name>
+  <uuid>52a80a1e-00e0-49bd-9935-22035672e7e0</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	the FirstName of Input is "ABC"
+then
+	set decision to "hello no space to " + the FirstName ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>
